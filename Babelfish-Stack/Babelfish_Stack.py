@@ -1,4 +1,5 @@
 import speech_recognition as sr
+from googletrans import Translator
 
 
 r = sr.Recognizer()
