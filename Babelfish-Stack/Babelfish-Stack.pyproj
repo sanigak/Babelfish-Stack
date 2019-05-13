@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0d68f437-2940-4801-8788-85efd676a6c8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Babelfish_Stack.py</StartupFile>
+    <StartupFile>TranslateTemp.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Babelfish_Stack.py" />
+    <Compile Include="TranslateTemp.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
